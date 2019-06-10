@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="windowBackground">#FAFAFA</color>
+    <color name="windowTextColor">#222222</color>
+
+    <color name="appBarBackground">#607D8B</color>
+    <color name="appBarTextColor">#FFFFFF</color>
+
+    <color name="actionMenuBackground">#ECEFF1</color>
+    <color name="actionMenuTextColor">#222222</color>
+
+    <color name="labelBackground">#222222</color>
+    <color name="labelTextColor">#ECEFF1</color>
+</resources>

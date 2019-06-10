@@ -1,0 +1,4 @@
+include ':Root-Script-Runner'
+include ':MaterialFilePicker'
+
+project(':MaterialFilePicker').projectDir = new File(rootDir, 'libs/MaterialFilePicker-library')

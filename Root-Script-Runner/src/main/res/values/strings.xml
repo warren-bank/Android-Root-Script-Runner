@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Root Script Runner</string>
+
+    <string name="script">Shell Script:</string>
+    <string name="stdout">Standard Output:</string>
+    <string name="stderr">Standard Error:</string>
+    <string name="status">Exit Status:</string>
+
+    <string name="action_open_filepicker">Choose Shell Script</string>
+</resources>

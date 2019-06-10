@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/script"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/labelBackground"
+                android:textColor="@color/labelTextColor"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/labelVerticalPadding"
+                android:paddingBottom="@dimen/labelVerticalPadding" />
+            <TextView
+                android:id="@+id/script"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/textVerticalPadding"
+                android:paddingBottom="@dimen/textVerticalPadding"
+                android:paddingLeft="@dimen/textHorizontalPadding"
+                android:paddingRight="@dimen/textHorizontalPadding" />
+
+            <TextView
+                android:text="@string/stdout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/labelBackground"
+                android:textColor="@color/labelTextColor"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/labelVerticalPadding"
+                android:paddingBottom="@dimen/labelVerticalPadding" />
+            <TextView
+                android:id="@+id/stdout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/textVerticalPadding"
+                android:paddingBottom="@dimen/textVerticalPadding"
+                android:paddingLeft="@dimen/textHorizontalPadding"
+                android:paddingRight="@dimen/textHorizontalPadding" />
+
+            <TextView
+                android:text="@string/stderr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/labelBackground"
+                android:textColor="@color/labelTextColor"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/labelVerticalPadding"
+                android:paddingBottom="@dimen/labelVerticalPadding" />
+            <TextView
+                android:id="@+id/stderr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/textVerticalPadding"
+                android:paddingBottom="@dimen/textVerticalPadding"
+                android:paddingLeft="@dimen/textHorizontalPadding"
+                android:paddingRight="@dimen/textHorizontalPadding" />
+
+            <TextView
+                android:text="@string/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/labelBackground"
+                android:textColor="@color/labelTextColor"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/labelVerticalPadding"
+                android:paddingBottom="@dimen/labelVerticalPadding" />
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/textVerticalPadding"
+                android:paddingBottom="@dimen/textVerticalPadding"
+                android:paddingLeft="@dimen/textHorizontalPadding"
+                android:paddingRight="@dimen/textHorizontalPadding" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
