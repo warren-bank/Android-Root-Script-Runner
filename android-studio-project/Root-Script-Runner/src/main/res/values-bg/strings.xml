@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Главен скрипт на скрипт</string>
+    <string name="script">Сценарий на обвивка:</string>
+    <string name="stdout">Стандартна продукция::</string>
+    <string name="stderr">Стандартна грешка::</string>
+    <string name="status">Състояние на изход:</string>
+    <string name="action_open_filepicker">Изберете скрипт на Shell</string>
+</resources>

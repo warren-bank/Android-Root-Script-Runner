@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Spúšťací spúšťač skriptu</string>
+    <string name="script">Shell skript:</string>
+    <string name="stdout">Štandardný výstup:</string>
+    <string name="stderr">Štandardná chyba:</string>
+    <string name="status">Stav ukončenia:</string>
+    <string name="action_open_filepicker">Vybrať skript v prostredí Shell</string>
+</resources>

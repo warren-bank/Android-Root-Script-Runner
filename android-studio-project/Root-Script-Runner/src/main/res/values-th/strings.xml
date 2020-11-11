@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">รันเน่อร์สคริปต์ราก</string>
+    <string name="script">เชลล์สคริปต์:</string>
+    <string name="stdout">ผลลัพธ์มาตรฐาน:</string>
+    <string name="stderr">ข้อผิดพลาดมาตรฐาน:</string>
+    <string name="status">สถานะการออก:</string>
+    <string name="action_open_filepicker">เลือกเชลล์สคริปต์</string>
+</resources>

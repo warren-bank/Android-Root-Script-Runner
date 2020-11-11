@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trkač Skripta</string>
+    <string name="script">Shell skripta:</string>
+    <string name="stdout">Standardni izlaz:</string>
+    <string name="stderr">Standardna greška:</string>
+    <string name="status">Status izlaza:</string>
+    <string name="action_open_filepicker">Izbor ljuske skripte</string>
+</resources>

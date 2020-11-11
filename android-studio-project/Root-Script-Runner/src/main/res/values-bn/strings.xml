@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">রুট স্ক্রিপ্ট রানার</string>
+    <string name="script">শেল স্ক্রিপ্ট:</string>
+    <string name="stdout">স্ট্যান্ডার্ড আউটপুট:</string>
+    <string name="stderr">স্ট্যান্ডার্ড সমস্যা:</string>
+    <string name="status">অবস্থা এক্সিট করো:</string>
+    <string name="action_open_filepicker">শেল স্ক্রিপ্ট নির্বাচন করুন</string>
+</resources>

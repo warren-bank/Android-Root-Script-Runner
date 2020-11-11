@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">रूट स्क्रिप्ट धावक</string>
+    <string name="script">शेल स्क्रिप्ट:</string>
+    <string name="stdout">मानक आउटपुट:</string>
+    <string name="stderr">मानक त्रुटि:</string>
+    <string name="status">स्थिति बाहर निकलें:</string>
+    <string name="action_open_filepicker">शैल स्क्रिप्ट चुनें</string>
+</resources>

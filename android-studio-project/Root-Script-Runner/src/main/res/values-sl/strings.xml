@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Korenski Skript Skripta</string>
+    <string name="script">Skript lupine:</string>
+    <string name="stdout">Standardni izhod:</string>
+    <string name="stderr">Standardna napaka:</string>
+    <string name="status">Status izhoda:</string>
+    <string name="action_open_filepicker">Izberi skript lupine</string>
+</resources>

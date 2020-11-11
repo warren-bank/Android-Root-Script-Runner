@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">రౌట్ స్క్రిప్ట్ రన్నర్</string>
+    <string name="script">షెల్ స్క్రిప్ట్:</string>
+    <string name="stdout">ప్రామాణిక అవుట్పుట్:</string>
+    <string name="stderr">ప్రామాణిక దోషము:</string>
+    <string name="status">స్థితి \@ label:</string>
+    <string name="action_open_filepicker">షేల్ స్క్రిప్ట్ను యెంచుకొనుము</string>
+</resources>

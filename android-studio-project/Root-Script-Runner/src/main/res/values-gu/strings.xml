@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">રુટ સ્ક્રિપ્ટ ચલાવનાર</string>
+    <string name="script">શેલ સ્ક્રિપ્ટ:</string>
+    <string name="stdout">પ્રમાણભૂત આઉટપુટ:</string>
+    <string name="stderr">પ્રમાણભૂત ભૂલ:</string>
+    <string name="status">પરિસ્થિતિ બહાર નીકળે છે:</string>
+    <string name="action_open_filepicker">Shell સ્ક્રિપ્ટ ને પસંદ કરો</string>
+</resources>

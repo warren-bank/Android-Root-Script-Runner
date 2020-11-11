@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Δρομέας σεναρίου Root</string>
+    <string name="script">Σενάριο Shell:</string>
+    <string name="stdout">Τυπική έξοδος:</string>
+    <string name="stderr">Τυπικό σφάλμα:</string>
+    <string name="status">Κατάσταση εξόδου::</string>
+    <string name="action_open_filepicker">Επιλογή σεναρίου Shell</string>
+</resources>

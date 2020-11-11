@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root scenarijų bėgikas</string>
+    <string name="script">Apvalkalo scenarijus:</string>
+    <string name="stdout">Standartinė išvestis:</string>
+    <string name="stderr">Standartinė klaida:</string>
+    <string name="status">Išvežimo Statusas:</string>
+    <string name="action_open_filepicker">Pasirinkti Shell scenarijų</string>
+</resources>

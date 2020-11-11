@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Name</string>
+    <string name="script">Sgript:</string>
+    <string name="stdout">Allbwn Safonol:</string>
+    <string name="stderr">Gwall Safonol:</string>
+    <string name="status">Cyflwr Gadael:</string>
+    <string name="action_open_filepicker">Dewis Sgript Shell</string>
+</resources>

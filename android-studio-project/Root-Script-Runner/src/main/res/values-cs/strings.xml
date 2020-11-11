@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kořenový spouštěč skriptu</string>
+    <string name="script">Skript shellu:</string>
+    <string name="stdout">Standardní výstup:</string>
+    <string name="stderr">Standardní chyba:</string>
+    <string name="status">Stav ukončení:</string>
+    <string name="action_open_filepicker">Zvolit skript shellu</string>
+</resources>

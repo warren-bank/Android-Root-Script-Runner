@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hoofdscript-runner</string>
+    <string name="script">Shellscript:</string>
+    <string name="stdout">Standaarduitvoer:</string>
+    <string name="stderr">Standaardfout:</string>
+    <string name="status">Afsluitstatus:</string>
+    <string name="action_open_filepicker">Shell-script kiezen</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pelari Skrip Root</string>
+    <string name="script">Skrip Shell:</string>
+    <string name="stdout">Keluaran Standar:</string>
+    <string name="stderr">Galat Standar:</string>
+    <string name="status">Status Keluar:</string>
+    <string name="action_open_filepicker">Pilih Script Shell</string>
+</resources>

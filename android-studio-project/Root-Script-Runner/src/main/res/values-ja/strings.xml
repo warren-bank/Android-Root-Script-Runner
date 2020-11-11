@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ルートスクリプトランナー</string>
+    <string name="script">シェル・スクリプト:</string>
+    <string name="stdout">標準出力:</string>
+    <string name="stderr">標準誤差:</string>
+    <string name="status">終了ステータス:</string>
+    <string name="action_open_filepicker">シェルスクリプトの選択</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Інструмент запуску скриптів</string>
+    <string name="script">Скрипт оболонки:</string>
+    <string name="stdout">Стандартний вивід:</string>
+    <string name="stderr">Стандартна помилка:</string>
+    <string name="status">Стан виходу:</string>
+    <string name="action_open_filepicker">Виберіть скрипт оболонки</string>
+</resources>

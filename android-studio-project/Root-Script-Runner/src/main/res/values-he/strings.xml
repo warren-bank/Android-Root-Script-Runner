@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">מנהל קובץ Script של יסוד</string>
+    <string name="script">קובץ Script של מעטפת:</string>
+    <string name="stdout">פלט רגיל:</string>
+    <string name="stderr">שגיאה סטנדרטית:</string>
+    <string name="status">סטטוס יציאה:</string>
+    <string name="action_open_filepicker">בחירת קובץ Script של מעטפת</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kök Komut Dosyası Koşucusu</string>
+    <string name="script">Kabuk Komut Dosyası:</string>
+    <string name="stdout">Standart Çıkış:</string>
+    <string name="stderr">Standart Hata:</string>
+    <string name="status">Çıkış Durumu:</string>
+    <string name="action_open_filepicker">Kabuk Komut Dosyası Seç</string>
+</resources>

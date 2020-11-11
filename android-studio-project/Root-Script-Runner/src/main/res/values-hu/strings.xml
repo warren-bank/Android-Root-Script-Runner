@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root Script Runner</string>
+    <string name="script">Shell parancsfájl:</string>
+    <string name="stdout">Szabványos kimenet:</string>
+    <string name="stderr">Szabványos hiba:</string>
+    <string name="status">Kilép állapota:</string>
+    <string name="action_open_filepicker">Shell parancsfájl kiválasztása</string>
+</resources>

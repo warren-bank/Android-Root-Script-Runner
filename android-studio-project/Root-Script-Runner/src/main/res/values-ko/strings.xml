@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">루트 스크립트 실행자</string>
+    <string name="script">쉘 스크립트:</string>
+    <string name="stdout">표준 출력:</string>
+    <string name="stderr">표준 오류:</string>
+    <string name="status">종료 상태:</string>
+    <string name="action_open_filepicker">쉘 스크립트 선택</string>
+</resources>

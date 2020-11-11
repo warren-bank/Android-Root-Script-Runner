@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">रूट स्क्रिप्ट रनर</string>
+    <string name="script">शेल स्क्रिप्ट:</string>
+    <string name="stdout">मानक निर्गत:</string>
+    <string name="stderr">मानक त्रुटि:</string>
+    <string name="status">वस्तुस्थिति:</string>
+    <string name="action_open_filepicker">शेल स्क्रिप्ट रोज्नुहोस्</string>
+</resources>

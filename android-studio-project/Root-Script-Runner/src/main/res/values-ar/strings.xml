@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">تشغيل البرنامج النصي الرئيسي</string>
+    <string name="script">نص غلاف Shell:</string>
+    <string name="stdout">المخرجات القياسية:</string>
+    <string name="stderr">خطأ قياسي:</string>
+    <string name="status">حالة الخروج:</string>
+    <string name="action_open_filepicker">اختيار نص غلاف Shell</string>
+</resources>

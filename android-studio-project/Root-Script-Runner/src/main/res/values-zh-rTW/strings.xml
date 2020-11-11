@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">根 Script 執行程式</string>
+    <string name="script">Shell Script:</string>
+    <string name="stdout">標準輸出:</string>
+    <string name="stderr">標準錯誤:</string>
+    <string name="status">結束狀態:</string>
+    <string name="action_open_filepicker">選擇 Shell Script</string>
+</resources>

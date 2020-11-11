@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root ஸ்கிரிப்ட் ரன்னர்</string>
+    <string name="script">ஷெல் சிறுநிரல்:</string>
+    <string name="stdout">நிலையான வெளியீடு:</string>
+    <string name="stderr">நிலையான பிழை:</string>
+    <string name="status">நிலையை வெளியிடு:</string>
+    <string name="action_open_filepicker">ஷெல் சிறுநிரலை தேர்ந்தெடு</string>
+</resources>

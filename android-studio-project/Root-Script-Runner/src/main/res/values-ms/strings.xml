@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pelari Skrip Root</string>
+    <string name="script">Skrip Shell:</string>
+    <string name="stdout">Output Piawai:</string>
+    <string name="stderr">Ralat Piawai:</string>
+    <string name="status">Keluar Status:</string>
+    <string name="action_open_filepicker">Pilih Skrip Shell</string>
+</resources>

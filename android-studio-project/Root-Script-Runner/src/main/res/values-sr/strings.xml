@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root скрипт тркач</string>
+    <string name="script">Скрипта шкољке:</string>
+    <string name="stdout">Стандардни излаз:</string>
+    <string name="stderr">Стандардна грешка:</string>
+    <string name="status">Излазни статус:</string>
+    <string name="action_open_filepicker">Одаберите Шкољку</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">රූට් ස්ක්රිප්ට් රනර්</string>
+    <string name="script">ෂෙල් ස්ක්රිප්ට්:</string>
+    <string name="stdout">සම්මත ප්රථිධාන:</string>
+    <string name="stderr">සම්මත දෝෂය:</string>
+    <string name="status">\@ info: status:</string>
+    <string name="action_open_filepicker">Shell ස්ක්රිප්ට තෝරන්න</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Агент корневого сценария</string>
+    <string name="script">Сценарий оболочки:</string>
+    <string name="stdout">Стандартный вывод:</string>
+    <string name="stderr">Стандартная ошибка:</string>
+    <string name="status">Состояние выхода:</string>
+    <string name="action_open_filepicker">Выберите сценарий оболочки</string>
+</resources>

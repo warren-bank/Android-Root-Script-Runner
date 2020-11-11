@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Saknes skriptu skrējējs</string>
+    <string name="script">Čaulas Script:</string>
+    <string name="stdout">Standarta izvade:</string>
+    <string name="stderr">Standarta kļūda:</string>
+    <string name="status">Izejas statuss:</string>
+    <string name="action_open_filepicker">Izvēlēties Shell skriptu</string>
+</resources>

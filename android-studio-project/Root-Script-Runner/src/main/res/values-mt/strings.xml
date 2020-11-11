@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Riscript Runner</string>
+    <string name="script">Kitba ta \':</string>
+    <string name="stdout">Output Standard:</string>
+    <string name="stderr">Żball Standard:</string>
+    <string name="status">Status tal-ħruġ:</string>
+    <string name="action_open_filepicker">Agħżel Shell Skrittura</string>
+</resources>

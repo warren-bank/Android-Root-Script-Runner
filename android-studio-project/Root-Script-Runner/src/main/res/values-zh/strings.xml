@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">根脚本运行器</string>
+    <string name="script">Shell 脚本:</string>
+    <string name="stdout">标准输出:</string>
+    <string name="stderr">标准错误:</string>
+    <string name="status">退出状态:</string>
+    <string name="action_open_filepicker">选择 Shell 脚本</string>
+</resources>

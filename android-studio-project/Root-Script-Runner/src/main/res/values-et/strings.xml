@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Juurskriptijooksja</string>
+    <string name="script">Shell-:</string>
+    <string name="stdout">Standardväljund:</string>
+    <string name="stderr">Standardviga:</string>
+    <string name="status">Väljumise staatus:</string>
+    <string name="action_open_filepicker">Shelli skript</string>
+</resources>

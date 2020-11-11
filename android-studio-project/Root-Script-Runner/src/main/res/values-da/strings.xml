@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rodscript-runner</string>
+    <string name="script">Shell-script:</string>
+    <string name="stdout">Standard-output:</string>
+    <string name="stderr">Standardfejl:</string>
+    <string name="status">Afslutningsstatus:</string>
+    <string name="action_open_filepicker">Vælg shell-script</string>
+</resources>

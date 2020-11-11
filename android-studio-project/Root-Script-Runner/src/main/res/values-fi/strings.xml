@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root-komentosarjan Runner</string>
+    <string name="script">Shell-Script:</string>
+    <string name="stdout">Tavallinen Output:</string>
+    <string name="stderr">Vakiovirhe:</string>
+    <string name="status">Poistumisen tila:</string>
+    <string name="action_open_filepicker">Valitse komentotiedosto</string>
+</resources>

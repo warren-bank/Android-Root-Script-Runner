@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rot Script Runner</string>
+    <string name="script">Skallskript:</string>
+    <string name="stdout">Standard utdata:</string>
+    <string name="stderr">Standard feil:</string>
+    <string name="status">Avslutt status:</string>
+    <string name="action_open_filepicker">Velg Shell Script</string>
+</resources>

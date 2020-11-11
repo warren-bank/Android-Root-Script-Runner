@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">روٹ سکرپٹ رنر</string>
+    <string name="script">شیل لپی:</string>
+    <string name="stdout">معیاری آؤٹ:</string>
+    <string name="stderr">معیاری غلطي:</string>
+    <string name="status">ایگزٹ سٹیٹس:</string>
+    <string name="action_open_filepicker">شیل سکرپٹ کا انتخاب</string>
+</resources>

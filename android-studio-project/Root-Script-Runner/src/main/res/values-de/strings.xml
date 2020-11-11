@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root-Script-Runner</string>
+    <string name="script">Shell-Script:</string>
+    <string name="stdout">Standardausgabe:</string>
+    <string name="stderr">Standardfehler:</string>
+    <string name="status">Exitstatus:</string>
+    <string name="action_open_filepicker">Shell-Script auswählen</string>
+</resources>

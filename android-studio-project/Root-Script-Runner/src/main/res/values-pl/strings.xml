@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Program uruchamiający skrypt główny</string>
+    <string name="script">Skrypt powłoki:</string>
+    <string name="stdout">Standardowe wyjście:</string>
+    <string name="stderr">Błąd standardowy:</string>
+    <string name="status">Status wyjścia:</string>
+    <string name="action_open_filepicker">Wybierz skrypt powłoki</string>
+</resources>

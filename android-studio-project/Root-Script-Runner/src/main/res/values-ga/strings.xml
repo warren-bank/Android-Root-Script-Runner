@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eagarthóir Scripte Root</string>
+    <string name="script">Kell ScriptName:</string>
+    <string name="stdout">Aschur caighdeánach:</string>
+    <string name="stderr">Earráid Caighdeánach:</string>
+    <string name="status">Stádas Imeachta:</string>
+    <string name="action_open_filepicker">Roghnaigh Script Shell</string>
+</resources>

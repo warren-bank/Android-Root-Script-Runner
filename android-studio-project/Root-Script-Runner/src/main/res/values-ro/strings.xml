@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rădăcină script root</string>
+    <string name="script">Script shell:</string>
+    <string name="stdout">Ieşire standard:</string>
+    <string name="stderr">Eroare standard:</string>
+    <string name="status">Stare ieşire:</string>
+    <string name="action_open_filepicker">Alegere script Shell</string>
+</resources>

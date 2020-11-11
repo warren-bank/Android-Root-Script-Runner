@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">റൂട്ട് സ്ക്രിപ്റ്റ് റണ്ണര്</string>
+    <string name="script">ഷെല് സ്ക്രിപ്റ്റ്:</string>
+    <string name="stdout">സാധാരണ ഔട്ട്പുട്ട്:</string>
+    <string name="stderr">സാധാരണ പിശകു്:</string>
+    <string name="status">അവസ്ഥ പ്രദര്ശിപ്പിക്കുക:</string>
+    <string name="action_open_filepicker">ഷെല് സ്ക്രിപ്റ്റ് തെരഞ്ഞെടുക്കുക</string>
+</resources>

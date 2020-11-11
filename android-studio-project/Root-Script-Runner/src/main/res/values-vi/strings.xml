@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tên chạy tập lệnh gốc</string>
+    <string name="script">Shell Script:</string>
+    <string name="stdout">Kết xuất chuẩn:</string>
+    <string name="stderr">Lỗi chuẩn:</string>
+    <string name="status">Trạng thái thoát:</string>
+    <string name="action_open_filepicker">Chọn tập lệnh Shell</string>
+</resources>

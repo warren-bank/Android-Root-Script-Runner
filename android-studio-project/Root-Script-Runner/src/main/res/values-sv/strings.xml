@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rotskriptkörningsprogram</string>
+    <string name="script">Shell-skript:</string>
+    <string name="stdout">Standardutdata:</string>
+    <string name="stderr">Standardfel:</string>
+    <string name="status">Exit-status:</string>
+    <string name="action_open_filepicker">Välj Shell-skript</string>
+</resources>

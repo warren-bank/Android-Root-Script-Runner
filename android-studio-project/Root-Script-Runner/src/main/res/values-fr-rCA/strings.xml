@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exécuteur de script racine</string>
+    <string name="script">Script de shell:</string>
+    <string name="stdout">Sortie standard:</string>
+    <string name="stderr">Erreur standard:</string>
+    <string name="status">Statut de sortie:</string>
+    <string name="action_open_filepicker">Sélection du script de shell</string>
+</resources>

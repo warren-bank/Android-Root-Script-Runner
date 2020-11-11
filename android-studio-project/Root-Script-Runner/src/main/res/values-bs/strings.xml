@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Root skripta Runner</string>
+    <string name="script">Shell skripta:</string>
+    <string name="stdout">Standardni izlaz:</string>
+    <string name="stderr">Standardna greška:</string>
+    <string name="status">Izlazni status:</string>
+    <string name="action_open_filepicker">Izaberite Shell skript</string>
+</resources>
