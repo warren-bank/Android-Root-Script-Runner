@@ -2,59 +2,75 @@ apply from: '../constants.gradle'
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion project.ext.compileSdkVersion
-    buildToolsVersion project.ext.buildToolsVersion
+  namespace project.ext.applicationId
 
-    compileOptions {
-        sourceCompatibility project.ext.javaVersion
-        targetCompatibility project.ext.javaVersion
+  compileSdkVersion project.ext.compileSdkVersion
+  buildToolsVersion project.ext.buildToolsVersion
+
+  compileOptions {
+    sourceCompatibility project.ext.javaVersion
+    targetCompatibility project.ext.javaVersion
+  }
+
+  defaultConfig {
+    minSdkVersion    project.ext.minSdkVersion
+    targetSdkVersion project.ext.targetSdkVersion
+
+    applicationId project.ext.applicationId
+    versionName   project.ext.releaseVersion
+    versionCode   project.ext.releaseVersionCode
+
+    archivesBaseName += "-$versionName"
+  }
+
+  flavorDimensions "languageResources"
+
+  productFlavors {
+    withAllLanguageTranslations {
+      dimension "languageResources"
     }
-
-    defaultConfig {
-        minSdkVersion project.ext.minSdkVersion
-        targetSdkVersion project.ext.targetSdkVersion
-
-        applicationId "com.github.warren_bank.root_script_runner"
-        versionName project.ext.releaseVersion
-        versionCode project.ext.releaseVersionCode
+    english {
+      dimension "languageResources"
     }
+  }
 
-    flavorDimensions "languageResources"
-
-    productFlavors {
-        withAllLanguageTranslations {
-            dimension "languageResources"
-        }
-        english {
-            dimension "languageResources"
-        }
+  buildTypes {
+    release {
+      debuggable      false
+      jniDebuggable   false
+      minifyEnabled   true
+      shrinkResources true
+      proguardFiles = [
+        "proguard-rules.txt",
+        getDefaultProguardFile('proguard-android.txt')
+      ]
     }
-
-    lintOptions {
-        disable 'MissingTranslation'
-        abortOnError true
+    debug {
+      debuggable      true
+      jniDebuggable   true
+      minifyEnabled   false
+      shrinkResources false
     }
+  }
 
-    buildTypes {
-        release {
-            shrinkResources true
-            minifyEnabled true
-            proguardFiles = [
-                "proguard-rules.txt",
-                getDefaultProguardFile('proguard-android.txt')
-            ]
-        }
-        debug {
-            jniDebuggable = true
-        }
-    }
+  buildFeatures {
+    buildConfig false
+  }
+
+  dependenciesInfo {
+    includeInApk    = false  // Disables dependency metadata when building APKs.
+    includeInBundle = false  // Disables dependency metadata when building Android App Bundles.
+  }
+
+  lintOptions {
+    disable 'MissingTranslation'
+    abortOnError true
+  }
 }
 
 dependencies {
-    implementation project(':MaterialFilePicker')
+  implementation project(':MaterialFilePicker')
 
-    implementation      'androidx.appcompat:appcompat:'            + project.ext.jetpackVersion            // (1.0 MB) https://mvnrepository.com/artifact/androidx.appcompat/appcompat?repo=google
-    implementation      'com.google.android.material:material:'    + project.ext.jetpackVersion            // (566 KB) https://mvnrepository.com/artifact/com.google.android.material/material?repo=google
+  implementation 'androidx.appcompat:appcompat:'         + project.ext.jetpackVersion     // (1.0 MB) https://mvnrepository.com/artifact/androidx.appcompat/appcompat?repo=google
+  implementation 'com.google.android.material:material:' + project.ext.jetpackVersion     // (566 KB) https://mvnrepository.com/artifact/com.google.android.material/material?repo=google
 }
-
-apply plugin: 'com.google.android.gms.strict-version-matcher-plugin'

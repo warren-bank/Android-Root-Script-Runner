@@ -1,11 +1,12 @@
 project.ext {
-    releaseVersionCode = Integer.parseInt("001000114", 10)  //Integer.MAX_VALUE == 2147483647
-    releaseVersion     = '001.00.01-14API'
-    javaVersion        = JavaVersion.VERSION_1_8
-    minSdkVersion      = 14
-    targetSdkVersion   = 28
-    compileSdkVersion  = 28
-    buildToolsVersion  = '28.0.3'
+  applicationId      = 'com.github.warren_bank.root_script_runner'
+  releaseVersionCode = Integer.parseInt("001000114", 10)  //Integer.MAX_VALUE == 2147483647
+  releaseVersion     = '001.00.01-14API'
+  javaVersion        = JavaVersion.VERSION_1_8
+  minSdkVersion      = 14
+  targetSdkVersion   = 35
+  compileSdkVersion  = 35
+  buildToolsVersion  = '35.0.0'
 
-    jetpackVersion     = '1.0.0'
+  jetpackVersion     = '1.0.0'
 }
