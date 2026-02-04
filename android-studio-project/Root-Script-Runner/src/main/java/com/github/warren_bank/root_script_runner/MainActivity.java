@@ -6,6 +6,7 @@ import com.github.warren_bank.root_script_runner.helpers.Shell.Result;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -24,12 +25,16 @@ public class MainActivity extends AppCompatActivity {
     private static final Pattern SHELL_SCRIPT_PATTERN     = Pattern.compile(".*\\.sh$", Pattern.CASE_INSENSITIVE);
     private static final int     FILE_PICKER_REQUEST_CODE = 1;
 
-    private String currentPath;
-
     private TextView script;
     private TextView stdout;
     private TextView stderr;
     private TextView status;
+
+    private String currentPath;
+
+    private void resetPath() {
+        currentPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,13 +64,12 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("");
         toolbar.setNavigationIcon(null);
 
-        currentPath = "/storage";
-
         script = (TextView) findViewById(R.id.script);
         stdout = (TextView) findViewById(R.id.stdout);
         stderr = (TextView) findViewById(R.id.stderr);
         status = (TextView) findViewById(R.id.status);
 
+        resetPath();
         openFilePicker();
     }
 
@@ -115,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             if (!file.exists()) return;
 
             currentPath = file.getParent();
-            if (currentPath == null) currentPath = "/";
+            if (currentPath == null) resetPath();
 
             script.setText(path);
             try {
